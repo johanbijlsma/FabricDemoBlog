@@ -7,11 +7,7 @@ import {
 	PrimaryButton,
 	Button
 } from 'office-ui-fabric-react';
-import { FontIcon } from 'office-ui-fabric-react/lib/Icon';
-import {
-	mergeStyles,
-	mergeStyleSets
-} from 'office-ui-fabric-react/lib/Styling';
+// import Blog from './components/Blog';
 
 import logo from './fabric.png';
 
@@ -19,17 +15,6 @@ const boldStyle = {
 	root: { fontWeight: FontWeights.semibold }
 };
 
-// const iconClass = mergeStyles({
-// 	fontSize: 50,
-// 	height: 50,
-// 	width: 50,
-// 	margin: '0 25px'
-// });
-// const classNames = mergeStyleSets({
-// 	deepSkyBlue: [{ color: 'deepskyblue' }, iconClass],
-// 	greenYellow: [{ color: 'greenyellow' }, iconClass],
-// 	salmon: [{ color: 'salmon' }, iconClass]
-// });
 export const App: React.FunctionComponent = () => {
 	return (
 		<Stack
@@ -90,9 +75,7 @@ export const App: React.FunctionComponent = () => {
 			<PrimaryButton>Show me</PrimaryButton>
 			<Button>or not...</Button>
 
-			{/* <FontIcon iconName='CompassNW' className={classNames.deepSkyBlue} />
-			<FontIcon iconName='Dictionary' className={classNames.greenYellow} />
-			<FontIcon iconName='TrainSolid' className={classNames.salmon} /> */}
+			{/* <Blog /> */}
 		</Stack>
 	);
 };

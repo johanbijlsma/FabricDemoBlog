@@ -41,7 +41,7 @@ En door het volgen van de Style guide en design voorschriften van Fluent mogelij
 Als voorbereiding voor deze blog, heb ik zelf een demo gebouwd in Fabric React.`;
 }
 
-export const Blog = (props: BlogProps) => {
+const Blog = (props: BlogProps) => {
 	return (
 		<div>
 			<h1>{props.title}</h1>
