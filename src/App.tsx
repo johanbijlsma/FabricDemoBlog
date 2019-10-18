@@ -74,7 +74,7 @@ export const App: React.FunctionComponent = () => {
 			</Text>
 			<PrimaryButton>Show me</PrimaryButton>
 			<Button>or not...</Button>
-
+			<Link href='/blog'>Read my new blog-post on UI Fabric with ReactJs</Link>
 			{/* <Blog /> */}
 		</Stack>
 	);
